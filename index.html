@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleWeightConverter</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/litera/bootstrap.min.css">
+
+<style>
+    #gramsId, #ounceId, #tonneId { font-size: small; margin-top: -10px;
+
+    } 
+</style>
+
+</head>
+<body class="bg-secondary">
+    <div class="container mt-5 text-center">
+        <h1>Simple Weight Converter</h1>
+        <input id="poundInput" type="number" class="form-control mt-4 form-control-lg container" placeholder="Pounds:" style="width: 500px;">
+    </div>
+       <div id="output">
+
+        <div class="text-secondary container card mt-2 bg-danger" style="width: 450px; height: 60px;">
+            <p>Grams:</p>
+            <div id="gramsId"></div>
+        </div>
+        <div class="text-secondary container card mt-2 bg-success" style="width: 450px; height: 60px;">
+            <p>Ounce:</p>
+            <div id="ounceId"></div>
+        </div>
+        <div class="text-secondary container card mt-2 bg-info" style="width: 450px; height: 60px;">
+            <p>tonne:</p>
+            <div id="tonneId"></div>
+        </div>
+       </div>
+    
+
+        <script src="main.js"></script>
+</body>
+</html>
